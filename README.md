@@ -2,7 +2,7 @@
 
 keyboard layout focusing English, programming and Japanese romaji simultaneous keying. qmk-firmware, autohotkey
 
-- maintainer: Botticelli's Bottilabo 
+- maintainer: Bottilabo 
 - original repository: https://github.com/bottilabo/harmony-keyboard-layout
 
 
@@ -66,19 +66,19 @@ cp -R harmony-keyboard-layout/qmk_firmware-files/ YOUR-QMK-DIR/
 ```
 
 ## crkbd Corne
-![keyboard](crkbd-corne-harmony-layout.png)
+![keyboard](keyboard-layout/crkbd-corne-harmony-layout.png)
 ```
 sudo make crkbd:harmony6-crkbd:avrdude
 ```
 
 ## NumAtreus
-![keyboard](numatreus-harmony.png)
+![keyboard](keyboard-layout/numatreus-harmony-layout.png)
 ```
 sudo make NumAtreus:harmony6-numatreus:avrdude
 ```
 
 ## Yosino58
-![keyboard](yosino58-harmony.png)
+![keyboard](keyboard-layout/yosino58-harmony-layout.png)
 ```
 sudo make yosino58:harmony6-yosino58:avrdude
 ```
@@ -91,4 +91,31 @@ See [https://github.com/bottilabo/qmk-romaji](https://github.com/bottilabo/qmk-r
 
 - Simultaneous Japanese Romaji mode
 `LOWER + RAISE + .`
+
+
+# AutoHotKey(Windows)
+[AutoHotKey](https://www.autohotkey.com/)  
+To handle combination of RightShift, you need to remap keycode NumpadDiv to RightShift.  
+  
+Just download and double click [NumpadDiv-RightShift.reg](AutoHotKey/NumpadDiv-RightShift.reg) to store registry information and restart computer.
+This registry data is result of [remapkey.exe](https://kuchikomiwebsite.com/application/post-153).
+
+You can uninstall by regedit.exe.
+Just delete `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout\Scancode Map`.
+
+
+## Happy Hacking Keyboard Pro
+![keyboard](keyboard-layout/hhkb-pro-harmony-layout.png)
+[hhkb pro.ahk](AutoHotKey/hhkb pro.ahk)
+
+## MiSTEL Barocco
+![keyboard](keyboard-layout/mistel-barocco-harmony-layout.png)
+
+### MD600
+[harmony6-mistel-barocco MD600.ahk](AutoHotKey/harmony6-mistel-barocco MD600.ahk)
+
+### MD650L
+[harmony6-mistel-barocco MD650.ahk](AutoHotKey/harmony6-mistel-barocco MD600.ahk)
+
+
 
