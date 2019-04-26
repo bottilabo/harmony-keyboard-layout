@@ -106,16 +106,16 @@ Just delete `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout
 
 ## Happy Hacking Keyboard Pro
 ![keyboard](keyboard-layout/hhkb-pro-harmony-layout.png)
-[hhkb pro.ahk](AutoHotKey/hhkb pro.ahk)
+[hhkb pro.ahk](AutoHotKey/hhkb-pro.ahk)
 
 ## MiSTEL Barocco
 ![keyboard](keyboard-layout/mistel-barocco-harmony-layout.png)
 
 ### MD600
-[harmony6-mistel-barocco MD600.ahk](AutoHotKey/harmony6-mistel-barocco MD600.ahk)
+[harmony6-mistel-barocco MD600.ahk](AutoHotKey/harmony6-mistel-barocco-MD600.ahk)
 
 ### MD650L
-[harmony6-mistel-barocco MD650.ahk](AutoHotKey/harmony6-mistel-barocco MD600.ahk)
+[harmony6-mistel-barocco MD650.ahk](AutoHotKey/harmony6-mistel-barocco-MD600.ahk)
 
 
 
